@@ -1,0 +1,17 @@
+# This configures the WebSockets event handler. Since this plugin only
+# forwards each event it receives via WebSockets, you simply need to
+# configure (i) which events to subscribe to, and (ii) the address of
+# the WebSockets server which will receive the requests.
+
+general: {
+	enabled = false		
+	events = "all"	
+	grouping = true	
+
+	json = "indented"	
+
+	backend = "ws://your.websocket.here"
+	# subprotocol = "your-subprotocol"
+						
+	#ws_logging = "err,warn"
+}

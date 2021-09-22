@@ -1,0 +1,28 @@
+general: {
+	#events = true			
+	json = "indented"	
+			
+	pingpong_trigger = 30	
+	pingpong_timeout = 10
+
+	ws = true	
+	ws_port = 8188	
+	wss = false
+	ws_logging = "client, err, warn"
+				
+	#ws_acl = "127.,192.168.0."
+}
+
+admin: {
+	admin_ws = false		
+	admin_ws_port = 7188	
+	admin_wss = false
+}
+
+cors: {
+	allow_origin = "https://*.callevo.net"
+	enforce_cors = false
+}
+
+certificates: {
+}

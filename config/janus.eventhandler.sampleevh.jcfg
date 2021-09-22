@@ -1,0 +1,18 @@
+general: {
+	enabled = false	
+	events = "all"
+						
+	grouping = true		
+						
+	json = "indented"	
+
+	#compress = true	
+	#compression = 9
+						
+	backend = "http://your.webserver.here/and/a/path"
+	#backend_user = "myuser"
+	#backend_pwd = "mypwd"
+
+	#max_retransmissions = 5
+	#retransmissions_backoff = 100
+}

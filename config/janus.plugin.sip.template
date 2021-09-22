@@ -1,0 +1,9 @@
+general: {
+	sdp_ip = "PRIVATEIP"
+
+	keepalive_interval = 120
+	behind_nat = true
+	register_ttl = 3600
+	rtp_port_range = "10000-60000"
+	events = false
+}

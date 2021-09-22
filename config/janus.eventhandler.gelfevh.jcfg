@@ -1,0 +1,12 @@
+general: {
+	enabled = false	
+	events = "all"
+
+	backend = "your.graylog.server"	
+	port = "12201"		
+	protocol = "tcp"
+	max_message_len = 1024	
+
+	compress = true	
+	compression = 4
+}
